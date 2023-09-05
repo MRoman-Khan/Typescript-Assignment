@@ -4,7 +4,7 @@ const personNameWithWhitespace = "\tAli \nKhan\t"; // Sample name with whitespac
 console.log("Name with whitespace:");
 console.log(personNameWithWhitespace);
 
-// Strip whitespace and print the name without it
+//Strip whitespace and print the name without it
 const strippedName = personNameWithWhitespace.trim();
 console.log("\nName after stripping whitespace:");
 console.log(strippedName);
